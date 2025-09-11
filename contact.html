@@ -8,25 +8,80 @@
     </head>
     <body>
         <nav>
-            <p><a href="index.html">About Colton Karaffa</a></p>
+            <div>
+                <h2>Colton Karaffa</h2>
+                <div>
+                    <p><a href="index.html">Home</a></p>
+                    <p><a href="#" class="current">Contact</a></p>
+                </div>
+            </div>
         </nav>
 
-        <h1>Colton Karaffa</h1>
-        <p>Street, Kingston, GA | 470-989-9014 | coltonkaraffa@gmail.com</p>
+        <header class="thin-header">
+            <div>
+                <div class="img-container"></div>
+                <div>
+                    <h1>Colton Karaffa</h1>
+                    <div class="info">
+                        <p>Atlanta Area</p>
+                        <a href="tel:4709899014">470-989-9014</a>
+                        <a href="mailto:coltonkaraffa@gmail.com"
+                            >coltonkaraffa@gmail.com</a
+                        >
+                    </div>
+                    <p class="tagline">
+                        Interested in software engineering and web development.
+                        Currently a senior at the University of Georgia studying
+                        Computer Science.
+                    </p>
+                </div>
+            </div>
+        </header>
 
-        <hr />
-
-        <form method="post" action="https://formsubmit.co/coltonkaraffa@gmail.com" class="one-col">
-            <input type="text" name="name" placeholder="Your Name" required />
-            <input type="email" name="email" placeholder="Your Email" required />
-            <textarea name="message" placeholder="Your Message" required></textarea>
+        <form
+            method="post"
+            action="https://formsubmit.co/coltonkaraffa@gmail.com"
+            class="one-col"
+        >
+            <div>
+                <h2>Contact Form</h2>
+                <p>Enter your message and I'll get to it ASAP!</p>
+            </div>
+            <div>
+                <label for="name">Name</label>
+                <input
+                    type="text"
+                    name="name"
+                    placeholder="Your Name"
+                    required
+                />
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input
+                    type="email"
+                    name="email"
+                    placeholder="Your Email"
+                    required
+                />
+            </div>
+            <div>
+                <label for="message">Message</label>
+                <textarea
+                    name="message"
+                    placeholder="Your Message"
+                    required
+                ></textarea>
+            </div>
             <button type="submit">Send</button>
         </form>
 
         <footer>
             <p>
                 &copy; <a href="index.html">Colton Karaffa</a
-                ><a target="_blank" href="https://linkedin.com/in/coltonkaraffa"><i class="linkedIn"></i></a>
+                ><a target="_blank" href="https://linkedin.com/in/coltonkaraffa"
+                    ><i class="linkedIn"></i
+                ></a>
             </p>
         </footer>
     </body>
